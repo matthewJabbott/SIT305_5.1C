@@ -57,45 +57,85 @@ Three main Room Entities:
 
 ## Project Structure
 ├── app
+
 │ ├── src
+
 │ │ ├── main
+
 │ │ │ ├── java
+
 │ │ │ │ └── com.example.sportsnews
+
 │ │ │ │ ├── data
+
 │ │ │ │ │ ├── AppDatabase.java
+
 │ │ │ │ │ ├── dao
+
 │ │ │ │ │ │ ├── UserDao.java
+
 │ │ │ │ │ │ └── VideoDao.java
+
 │ │ │ │ │ └── entity
+
 │ │ │ │ │ ├── User.java
+
 │ │ │ │ │ ├── BookmarkedNews.java
+
 │ │ │ │ │ └── VideoItem.java
+
 │ │ │ │ ├── ui
+
 │ │ │ │ │ ├── MainActivity.java
+
 │ │ │ │ │ ├── fragment
+
 │ │ │ │ │ │ ├── HomeFragment.java
+
 │ │ │ │ │ │ ├── SportsFeedFragment.java
+
 │ │ │ │ │ │ ├── NewsDetailFragment.java
+
 │ │ │ │ │ └── PlaylistFragment.java
+
 │ │ │ │ │ ├── adapter
+
 │ │ │ │ │ │ └── NewsGridAdapter.java
+
 │ │ │ │ │ └── layout
+
 │ │ │ │ │ └── fragment_home.xml
+
 │ │ │ │ └── viewmodel
+
 │ │ │ │ └── NewsViewModel.java
+
 │ │ │ ├── res
+
 │ │ │ └── AndroidManifest.xml
+
 │ │ ├── test
+
 │ │ │ └── java
+
 │ │ │ └── com.example.sportsnews
+
 │ │ │ ├── data
+
 │ │ │ └── ui
+
 │ │ └── androidTest
+
 │ │ └── java
+
 │ │ └── com.example.sportsnews
+
 │ │ └── ui
+
 │ └── build.gradle
+
 ├── gradle
+
 └── build.gradle
 
 
