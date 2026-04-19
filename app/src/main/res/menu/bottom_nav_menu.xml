@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Videos" />
+    <item
+        android:id="@+id/nav_feed"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/menu_feed" />
+    <item
+        android:id="@+id/nav_bookmarks"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="@string/menu_bookmarks" />
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_title"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etVideoUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_youtube_url"
+        android:padding="12dp"
+        android:inputType="textUri"
+        android:importantForAutofill="no"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_play"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#276533"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnAddToPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add_playlist"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#1a4299"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnMyPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_view_playlist"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#492765"
+        android:textColor="#FFFFFF"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_logout"
+        android:textColor="#757575"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+</LinearLayout>
